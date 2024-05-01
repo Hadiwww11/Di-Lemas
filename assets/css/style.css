@@ -1,0 +1,141 @@
+body {
+    background: #f8f0f2; 
+    color: #333; 
+    font-family: 'Poppins', sans-serif; 
+    font-size: 18px; 
+    line-height: 1.6; 
+}
+
+#wrapper {
+    background: #f4e9ec; 
+    max-width: 1200px; 
+    margin: 50px auto; 
+    padding: 30px; 
+    border-radius: 8px; 
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+#wrapper header {
+    background: #f7dfe2; 
+    padding: 20px; 
+    border-top-left-radius: 8px; 
+    border-top-right-radius: 8px; 
+    text-align: center; 
+}
+
+/* Judul Utama */
+#textjudul {
+    font-family: 'Playfair Display', serif; 
+    font-weight: 700; 
+    font-size: 36px; 
+    text-transform: uppercase; 
+    color: #e27a8d; 
+}
+
+/* Sub Judul */
+h2 {
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 600; 
+    font-size: 24px; 
+    color: #e27a8d; 
+    text-align: center; 
+    margin-bottom: 20px; 
+}
+
+/* Tabel */
+table {
+    margin: auto; 
+    margin-bottom: 20px; 
+    border-collapse: collapse; 
+}
+
+th, td {
+    padding: 10px; 
+    border: 1px solid #ccc; 
+}
+
+th {
+    text-align: left; 
+    background-color: #f7dfe2; 
+}
+
+/* Footer */
+footer {
+    background: #f7dfe2;
+    font-family: 'Poppins', sans-serif; 
+    padding: 20px; 
+    border-bottom-left-radius: 8px; 
+    border-bottom-right-radius: 8px; 
+    text-align: center; 
+}
+
+footer a {
+    color: #e27a8d; 
+    text-decoration: none; 
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+}
+
+.contact-info,
+.social-media {
+    flex-basis: 50%; 
+}
+
+.contact-info h4,
+.social-media h4 {
+    margin-bottom: 10px; 
+}
+
+.contact-info p {
+    margin: 5px 0; 
+}
+
+.social-media ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social-media ul li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.social-media ul li:first-child {
+    margin-left: 0;
+}
+
+.social-media ul li a {
+    color: #333; 
+    font-size: 20px; 
+}
+
+.social-media ul li a:hover {
+    color: #e27a8d; 
+}
+
+section {
+    padding: 20px; 
+}
+
+/* Animasi Header */
+#wrapper header {
+    transition: background-color 0.3s ease; 
+}
+
+#wrapper header:hover {
+    background-color: #f2c5d8; 
+}
+
+/* Efek Hover pada Tabel */
+table {
+    transition: box-shadow 0.3s ease; 
+}
+
+table:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); 
+}
